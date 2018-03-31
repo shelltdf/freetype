@@ -120,7 +120,7 @@ project(freetype)
 
 
 if (WIN32 AND NOT MINGW AND BUILD_SHARED_LIBS)
-  message(FATAL_ERROR "Building shared libraries on Windows needs MinGW")
+  # message(FATAL_ERROR "Building shared libraries on Windows needs MinGW")
 endif ()
 
 # Disallow in-source builds
